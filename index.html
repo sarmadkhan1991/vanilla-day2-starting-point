@@ -24,12 +24,37 @@
     <main>
       <section>
         <h1>Subscribe to our newsletter!</h1>
+        <button id="my-button">
+          click
+        </button>
 
         <!-- add a form -->
+        <span id='username'></span>
+        <span id="password"></span>
+        <form>
+          <input 
+          type="text" 
+          name="username" 
+          id="username-input" 
+          placeholder="username"/>
+          <input 
+          type="password" 
+          name="password" 
+          id="password-input" 
+          placeholder="password" />
+          <button>Submit</button>
+        </form>
       </section>
 
       <section>
         <!-- add buttons that will create and remove dom nodes -->
+        <button class="add-link"> 
+          Make Link 
+        </button>
+
+        <button class="remove-link">
+          Remove Link
+        </button>
       </section>
     </main>
     <script src="index.js"></script>
